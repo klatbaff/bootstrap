@@ -35,5 +35,13 @@ header{
     bottom: 50px;
     width: 95%;}
 
+a:hover{
 
+    color: black !important;
+}
+
+button:hover{
+    color: rgb(19, 180, 233) !important;
+
+}
 

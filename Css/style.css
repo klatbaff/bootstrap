@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    width: 100%;
+    background-image: url(../img/tigre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+
+#greenArticle{
+    position: relative;
+
+}
+#Tigrou{
+    left: 40px;
+    position: absolute;
+}
+
+
+#Diapo{
+    position: relative;
+}
+
+#DiapoDiv{
+    position: absolute;
+    bottom: 50px;
+    width: 95%;}
+
+
+

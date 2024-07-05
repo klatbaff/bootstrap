@@ -4,23 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Css/style.css">
     <title>Tigre WWf</title>
 </head>
 
 <body>
-    <header>
-        
-            <nav class>
-                <ul>
-                    <li><a href="">Acceuil</a></li>
-                    <li><a href=""></a>la fondation</li>
-                    <li><a href=""></a>Nous aider</li>
-                    <li><a href=""></a>Contact</li>
-                </ul>
-            </nav>
-        
+    <header class="container-fluid d-flex flex-column justify-content-between">
+        <nav>
+            <ul class="row fs-3 align-items-center pt-5">
+                <li class="col-2"><img class="img-fluid" src="img/WWF-logo.png" alt="logo de WWf"></img></li>
+                <li class="col-2 offset-lg-2"><a class="text-decoration-none text-white" href="">Accueil</a></li>
+                <li class="col-2"><a class="text-decoration-none text-white" href="">La fondation</a></li>
+                <li class="col-2"><a class="text-decoration-none text-white" href="">Nous aider</a></li>
+                <li class="col-2"><a class="text-decoration-none text-white" href="">Contact</a></li>
+            </ul>
+        </nav>
+        <article class="row bg-dark bg-opacity-50 justify-content-end text-left text-white px-5">
+            <div class="col-6">
+                <h1>Le tigre de Birmanie</h1>
+                <p>Les combats qui font rage depuis un ans dans l'extrême nord de la Birmanie font des victimes
+                    innatendues: des dizaines de tigres, qui survivent tant bien que mal dans la plus grande reserve au
+                    monde dédiée à leur protection, et située près des zones de combats.<br>
+                    En 2010,la junte aujourd'hui dissoute avait étendu ce santuaire, qui atteint désormais pres de
+                    22.000km2 (quasiment la taille d'Israël) dans la vallée reculée de Hukaung. De 50 a 70 tigres y
+                    vivraient aujourd'hui.</p>
+            </div>
+        </article>
     </header>
 
+    <main>
+        <section class="container-fluid">
+            <article class="row p-5">
+                <div class="col-6"><img class="img-fluid" src="img/tigre2.jpg" alt=""></div>
+                <div class="col-6">
+                    <h2>Célébration du mois du tigre a la WWF</h2>
+                    <p>Les mois du tigre de terre commencent le jour du lichun("etablissement du printemps", entre le 2
+                        et
+                        le 5 février marquant le début du printemps en chine) et se termine le jour précendant le
+                        jhingze ("éveil de l'hibernation entre le 5 et 7 mars") des années aux tiges célestes yi et
+                        geng,
+                        soit tout les cinq ans. Sont par exemple"mois du tigre de terre".<br>
+                        A la tige céleste wu est associé le yang et l'élement terre, et a la branche terrestre yin, le
+                        yang,
+                        l'élément bois et le signe du tigre.Dans la symbolique des cinq éléments,le wuyin correspond
+                        donc au
+                        bois qui détruit la terre".</p>
+                </div>
+            </article>
+        </section>
+        <section class="container-fluid">
+            <article id="greenArticle" class="bg-success row justify-content-end py-5">
+                <div id="Tigrou" class="col-4 "><img class=" img-fluid" src="img/tigre 3.png" alt=""></div>
+                <div class="col-7 text-white fs-5 text-center">
+                    <p class="py-2"> Aidez les tigres de Birmanie maintenant,</p>
+                    <p class="py2"> Devenez Membre de la fondation WWF </p>
+                    <button id="BtnMember" class="py-2 rounded-pill p-2 m-2 bg-blue">Devenir Membre</button>
+                </div>
+            </article>
+        </section>
+        <section id="Diapo" class="p-5 m-5">
+            <div id="imgTigre"><img  class="img-fluid" src="img/te╠üle╠üchargement.jpg" alt="">
+                <div id="DiapoDiv" class="bg-white bg-opacity-50 fs-5 row justify-content-around py-3">
+                    <div class="col-6 d-flex justify-content-center align-items-center p-5"><button id="BtnDiapo" class="text-white bg-dark rounded-pill p-2 m-3">Lancer le diaporama</button></div>
+
+                    <p class="col-6 text-white text-center py-5">Découvrez notre sélection de <br> photos sur le plus mystérieux des félins..</p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
